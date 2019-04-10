@@ -154,7 +154,7 @@ public abstract class AbstractSingleLinkedListImpl<T> implements SingleLinkedLis
 		Node<G> next;
 	}
 	
-	protected Node<T> header = new Node<T>(null);
+	protected Node<T> header;
 
 	
 	@Override
